@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <!-- <h1>Calculator using HTML, CSS and Javascript</h1> -->
+    <h1 class="text-center">Welcome to football Calculator</h1>
+    <div class="container flex flex-col  mx-auto items-center" id="basic">
+        <div class="row">
+            <input type="text" class="input">
+        </div>
+        <div class="row">
+            <button class="button"><span>C</span></button>
+            <button class="button"><span>+/-</span></button>
+            <button class="button"><span>%</span></button>
+            <button class="button"><span>÷</span></button>
+        </div>
+        <div class="row">
+            <button class="button"><span>7</span></button>
+            <button class="button"><span>8</span></button>
+            <button class="button"><span>9</span></button>
+            <button class="button"><span>X</span></button>
+            <!-- <button class="button"><span>download</span></button> -->
+        </div>
+        <div class="row">
+            <button class="button"><span>4</span></button>
+            <button class="button"><span>5</span></button>
+            <button class="button"><span>6</span></button>
+            <button class="button"><span>-</span></button>
+        </div>
+        <div class="row">
+            <button class="button"><span>1</span></button>
+            <button class="button"><span>2</span></button>
+            <button class="button"><span>3</span></button>
+            <button class="button"><span>+</span></button>
+        </div>
+        <div class="row">
+            <button class="button"><span>0</span></button>
+            <button class="button" id="log"><span>log</span></button>
+            <button class="button"><span>.</span></button>
+            <button class="button"><span>=</span></button>
+        </div>
+        <div class="container flex cursor">
+            <button class= "sbutton1 cursor" onclick="myFunction()">Advanced Functions</button>
+        </div>
+        <div class="container flex cursor">
+            <button class= "sbutton1 cursor" onclick="myFunction1()">History</button>
+        </div>
+    </div>
+    <div class="con" id="i1"></div>
+    <div class="container flex flex-col  mx-auto items-center" id="advanced">
+        <div class="row">
+            <input type="text" class="input" id="1">
+        </div>
+        <div class="row">
+            <button class="button1"><span>C</span></button>
+            <button class="button1"><span>LCM</span></button>
+            <button class="button1"><span>=</span></button>
+            <button class="button1"><span>÷</span></button>
+            <button class="button1"><span>HCF</span></button>
+        </div>
+        <div class="row">
+            <button class="button1"><span>7</span></button>
+            <button class="button1"><span>8</span></button>
+            <button class="button1"><span>9</span></button>
+            <button class="button1"><span>X</span></button>
+            <button class="button1"><span>sin</span></button>
+        </div>
+        <div class="row">
+            <button class="button1"><span>4</span></button>
+            <button class="button1"><span>5</span></button>
+            <button class="button1"><span>6</span></button>
+            <button class="button1"><span>-</span></button>
+            <button class="button1"><span>cos</span></button>
+        </div>
+        <div class="row">
+            <button class="button1"><span>1</span></button>
+            <button class="button1"><span>2</span></button>
+            <button class="button1"><span>3</span></button>
+            <button class="button1"><span>+</span></button>
+            <button class="button1"><span>tan</span></button>
+        </div>
+        <div class="row">
+            <button class="button1"><span>0</span></button>
+            <button class="button1"><span>Rad</span></button>
+            <button class="button1"><span>Deg</span></button>
+            <button class="button1"><span>+/-</span></button>
+            <button class="button1"><span>,</span></button>
+        </div>
+        <div class="container flex">
+            <button class= "sbutton2 cursor" onclick="myFunction()">Advanced Functions</button>
+        </div>
+        <div class="container flex">
+            <button class= "sbutton1 cursor" onclick="myFunction1()">History</button>
+        </div>
+    </div>
+    <div class="con hidden" id="i2"></div>
+    <script src="scriptTest.js"></script>
+</body>
+</html>

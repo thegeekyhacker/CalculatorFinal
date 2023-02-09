@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.cdnfonts.com/css/elephant');
+html,body{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url("wallpaper.jpg"); */
+    background-image: url("peakpx.jpg");
+    background-size: auto;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    cursor: url("pngegg.png"),auto;
+    /* font-family: 'Itim', cursive; */
+    font-family: 'Elephant', sans-serif;
+    background-position: center;
+
+    font-size: 62.5%;
+}
+.con{
+    width: 50vw;
+    height: 50vh;
+}
+#log{
+    font-size: 4.5rem;
+}
+.button{
+    padding: 0rem;
+    margin: 0rem .3rem;
+    /* border: 2rem solid black; */
+    /* border-radius: 9rem; */
+    /* width: fit-content; */
+    /* cursor: pointer; */
+    /* height: fit-content; */
+    min-height: 10.0rem;
+    min-width: 10.0rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Itim', cursive;
+    /* font-family: 'Elephant', sans-serif; */
+    background: transparent;
+    border: transparent;
+    cursor: url("pngegg.png"),auto;
+    /* background-image: url("pngegg1.png"); */
+    background-image: url("3.png");
+    background-repeat: no-repeat;
+    background-size: 10.0rem 10.0rem;
+    background-position: 0;
+    background-clip: initial;
+    font-size: 4.5rem;
+    /* color: rgb(253, 1, 1); */
+    /* color: rgb(255, 0, 170); */
+    /* color: rgb(185, 185, 126); */
+    /* color: #39ff14; */
+    color: #00008B;
+}
+h1{
+    font-size: 5.5rem;
+    /* color: rgb(255, 0, 170); */
+    color: red;
+    /* font-family: 'Itim', cursive; */
+    font-family: 'Elephant', sans-serif;
+}
+.button:hover{
+    animation: rbtn 7s linear infinite;
+    -webkit-animation: rbtn 7s linear infinite;
+}
+.button:hover>span{
+    display: inline-block;
+    animation: rrbtn 7s linear infinite;
+    -webkit-animation: rrbtn 7s linear infinite;
+}
+.row{
+    margin: .8rem 0rem;
+}
+.row input{
+    margin: 0;
+    padding: 1.3rem .5rem;
+    border: .2rem solid black;
+    border-radius: .7rem;
+    font-size: 2.5rem;
+    /* font-family: 'Itim', cursive; */
+    font-family: 'Elephant', sans-serif;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    /* visibility: ; */
+}
+.row input1{
+    margin: 0;
+    padding: 1.3rem .5rem;
+    border: .2rem solid black;
+    border-radius: .7rem;
+    font-size: 2.5rem;
+    /* font-family: 'Itim', cursive; */
+    font-family: 'Elephant', sans-serif;
+    /* visibility: ; */
+}
+.button1{
+    padding: 0rem;
+    margin: 0rem .3rem;
+    /* border: .2rem solid black; */
+    /* border-radius: .9rem; */
+    cursor: url("pngegg.png"),auto;
+    /* width: fit-content; */
+    /* cursor: pointer; */
+    /* height: fit-content; */
+    min-height: 10.0rem;
+    min-width: 10.0rem;
+    font-weight: bold;
+    font-family: 'Itim', cursive;
+    /* font-family: 'Elephant', sans-serif; */
+    /* font-size: 2rem; */
+    background: transparent;
+    border: transparent;
+    background-image: url("3.png");
+    /* background-image: url("football1.png"); */
+    background-repeat: no-repeat;
+    background-size: 10.0rem 10.0rem;
+    /* background-clip: initial; */
+    font-size: 3rem;
+    color: #00008B;
+    /* color: rgb(255, 0, 170); */
+    /* transition: transform .7s ease-in-out; */
+}
+.button1:hover{
+    animation: rbtn 7s linear infinite;
+    -webkit-animation: rbtn 7s linear infinite;
+}
+.button1:hover>span{
+    display: inline-block;
+    animation: rrbtn 7s linear infinite;
+    -webkit-animation: rrbtn 7s linear infinite;
+}
+@keyframes rbtn{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rrbtn{
+    0%{
+        transform: rotate(-0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.container{
+    justify-content: center;
+    
+}
+.sbutton2{
+    width: 34.4rem;
+    height: 5.0rem;
+    justify-content: center;
+    cursor: url("pngegg.png"),auto;
+    border: .2rem solid black;
+    border-radius: .9rem;
+    background: rgb(5,252,145);
+    font-size: 2.2rem;
+    /* font-family: 'Itim', cursive; */
+    font-family: 'Elephant', sans-serif;
+    background: linear-gradient(90deg, rgba(5,252,145,1) 0%, rgba(10,213,51,1) 35%, rgba(7,240,174,1) 100%);
+    /* background-color: linear-gradient(toright,red,green); */
+    /* background: linear-gradient(toright,red,green); */
+    -webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+}
+.sbutton1{
+    width: 34.4rem;
+    height: 5.0rem;
+    justify-content: center;
+    cursor: url("pngegg.png"),auto;
+    border: .2rem solid black;
+    border-radius: .9rem;
+    font-size: 2.2rem;
+    /* font-family: 'Itim', cursive; */
+    font-family: 'Elephant', sans-serif;
+    /* background-color: linear-gradient(toright,red,green); */
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite; */
+    /* background: rgb(5,252,145); */
+    background: linear-gradient(90deg, rgba(5,252,145,1) 0%, rgba(10,213,51,1) 35%, rgba(7,240,174,1) 100%);
+    /* animation: gradient 15s ease infinite; */
+    -webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+    
+}
+  
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
+#advanced{
+    /* visibility: hidden; */
+    display: none;
+}
+.hidden{
+    display: none;
+}
+@media only screen and (max-width:600px){
+    html{
+        font-size: 30%;
+    }
+}
+@media only screen and (max-width:400px){
+    html{
+        font-size: 25%;
+    }
+}
